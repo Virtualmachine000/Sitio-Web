@@ -1,0 +1,178 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:500");
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+}
+
+.nav {
+  max-width: 1242px;
+  height: 77px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 97px;
+  height: 77px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+}
+
+.nav-item {
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 30px;
+}
+
+.icon-link {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+}
+
+/* Sección Misión y Visión */
+.box .div {
+  position: absolute;
+  width: 1131px;
+  height: auto;
+  top: 606px;
+  left: 159px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box .overlap-group,
+.box .overlap-2 {
+  width: 495px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box .mision,
+.box .vision {
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #b88e2f;
+  font-size: 36px;
+  line-height: 65px;
+  margin-bottom: 20px;
+}
+
+.box .text-wrapper,
+.box .p {
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #333333;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 10px;
+}
+
+/* Línea divisoria */
+.box .vector {
+  position: absolute;
+  width: 3px;
+  height: 229px;
+  top: 2px;
+  left: 560px;
+  background-color: #b88e2f;
+}
+
+/* Sección Pedidos */
+.box .group-2 {
+  position: absolute;
+  width: 1044px;
+  height: 77px;
+  top: 962px;
+  left: 199px;
+}
+
+.pedidos {
+  position: absolute;
+  width: 365px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 40px;
+  line-height: 65px;
+  white-space: nowrap;
+}
+
+/* Logos Delivery */
+.box .img {
+  position: absolute;
+  width: 195px;
+  height: 36px;
+  top: 21px;
+  left: 407px;
+}
+
+.box .rappi-logo-svg {
+  position: absolute;
+  width: 150px;
+  height: 63px;
+  top: 7px;
+  left: 644px;
+  mix-blend-mode: luminosity;
+  background-image: url("https://c.animaapp.com/te5WbGNa/img/rappi-logo-svg-1@2x.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.box .uber-eats-logo {
+  position: absolute;
+  width: 206px;
+  height: 45px;
+  top: 16px;
+  left: 836px;
+  mix-blend-mode: luminosity;
+}
